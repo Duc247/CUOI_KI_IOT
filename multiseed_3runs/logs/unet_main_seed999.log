@@ -1,0 +1,28 @@
+run_name=unet_main
+seed=999
+use_skip=True
+device=cuda
+================================================================================
+epoch=001 | train=0.05597943 | val=0.03933280 | train_l1=0.04802642 | train_l2=0.00795301 | val_l1=0.03486410 | val_l2=0.00446870 | lr=9.99753527e-04
+NEW_BEST epoch=1 val_loss=0.03933280
+epoch=002 | train=0.03070350 | val=0.03807634 | train_l1=0.02796454 | train_l2=0.00273895 | val_l1=0.03424721 | val_l2=0.00382913 | lr=9.99014351e-04
+NEW_BEST epoch=2 val_loss=0.03807634
+epoch=003 | train=0.02668914 | val=0.03491901 | train_l1=0.02450789 | train_l2=0.00218125 | val_l1=0.03148339 | val_l2=0.00343562 | lr=9.97783201e-04
+NEW_BEST epoch=3 val_loss=0.03491901
+epoch=004 | train=0.02410026 | val=0.03506861 | train_l1=0.02225142 | train_l2=0.00184884 | val_l1=0.03142740 | val_l2=0.00364121 | lr=9.96061293e-04
+epoch=005 | train=0.02240310 | val=0.03363603 | train_l1=0.02075365 | train_l2=0.00164945 | val_l1=0.03004771 | val_l2=0.00358832 | lr=9.93850326e-04
+NEW_BEST epoch=5 val_loss=0.03363603
+epoch=006 | train=0.02117208 | val=0.03461124 | train_l1=0.01964458 | train_l2=0.00152749 | val_l1=0.03079940 | val_l2=0.00381184 | lr=9.91152482e-04
+epoch=007 | train=0.02082792 | val=0.03748474 | train_l1=0.01939195 | train_l2=0.00143597 | val_l1=0.03376299 | val_l2=0.00372175 | lr=9.87970423e-04
+epoch=008 | train=0.01990009 | val=0.03397240 | train_l1=0.01857390 | train_l2=0.00132619 | val_l1=0.03024964 | val_l2=0.00372275 | lr=9.84307289e-04
+epoch=009 | train=0.01937690 | val=0.03639802 | train_l1=0.01809524 | train_l2=0.00128166 | val_l1=0.03271555 | val_l2=0.00368247 | lr=9.80166696e-04
+epoch=010 | train=0.01877031 | val=0.03557660 | train_l1=0.01756184 | train_l2=0.00120846 | val_l1=0.03173139 | val_l2=0.00384522 | lr=9.75552730e-04
+epoch=011 | train=0.01785838 | val=0.03574891 | train_l1=0.01671346 | train_l2=0.00114492 | val_l1=0.03185839 | val_l2=0.00389052 | lr=9.70469944e-04
+epoch=012 | train=0.01782134 | val=0.03532733 | train_l1=0.01670803 | train_l2=0.00111331 | val_l1=0.03132937 | val_l2=0.00399796 | lr=9.64923355e-04
+epoch=013 | train=0.01774482 | val=0.03564699 | train_l1=0.01666186 | train_l2=0.00108296 | val_l1=0.03160746 | val_l2=0.00403953 | lr=9.58918436e-04
+epoch=014 | train=0.01727209 | val=0.03499251 | train_l1=0.01622342 | train_l2=0.00104867 | val_l1=0.03121824 | val_l2=0.00377426 | lr=9.52461113e-04
+epoch=015 | train=0.01697795 | val=0.03473765 | train_l1=0.01596229 | train_l2=0.00101566 | val_l1=0.03096326 | val_l2=0.00377439 | lr=9.45557759e-04
+EARLY_STOP epoch=15 best_epoch=5 best_val=0.03363603
+best_epoch=5
+best_val_loss=0.0336360298
+checkpoint=/content/drive/MyDrive/FSDD_UNet2D_DAE_VuMinhDuc/multiseed_3runs/checkpoints/unet_main_seed999_best.pt

@@ -1,0 +1,2 @@
+num_parameters,theoretical_fp32_param_mb,actual_checkpoint_mb
+449489,1.797956,1.811613

@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "train": [
+    "jackson",
+    "nicolas",
+    "theo",
+    "yweweler"
+  ],
+  "val": [
+    "george"
+  ],
+  "test": [
+    "lucas"
+  ]
+}
